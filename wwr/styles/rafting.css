@@ -7,3 +7,55 @@
 
 }
 
+.hero {
+    position: center relative;
+}
+
+.hero img {
+    max-width: 100%;
+    height:auto;
+}
+
+.hero article {
+    position: absolute;
+    text-align: center;
+    border: dotted var(--accent-color-1);
+    background-color: var(--secondary-color);
+    margin: 2rem;
+    color: var(--text-color)
+
+}
+
+.hero article img {
+    float: right;
+}
+
+h2 {
+    color: var(--text-color);
+    text-align: center; 
+}
+
+
+section p {
+    color: var(--text-color);
+}
+
+section {
+    border: solid var(--accent-color-1);
+    margin: 1rem; 
+    padding: 1rem;
+    background-color: var(--secondary-color);
+}
+
+
+footer a{
+    text-decoration: none;
+}
+
+footer{
+    border: dotted var(--accent-color-1);
+    margin:1rem;
+    padding:1rem;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+}
