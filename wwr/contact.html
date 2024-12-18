@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description" content="white water rafting, jenna anderson, WDD 130, contact us, html forms, basic css, basic html">
+    <meta name="author" content="Jenna Anderson"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img class ="headerimg" src="images/rafting-logo.png" alt="Dry Oar logo">
+            <nav class = "header-nav">
+                <a class= "nav-link" href="../index.html">Home</a>
+                <a class= "nav-link" href="about.html">About Us</a>
+                <a class= "nav-link" href="trips.html">Trips</a>
+                <a class= "nav-link" href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <div class="contactinfo">
+            <h1>Contact Us!</h1>
+            <section class="address">
+                <h2>Address:</h2>
+                <article>
+                    <h4>Dry Oar Hq</h2>
+                    <p>1234 Fiction St NW Imaginary, LD 55555</p>
+                </article>  
+            </section>
+            <section calss="numbers">
+                <h2 class="numberh2">Numbers:</h2>
+                <article>
+                    <p>(555)-555-555</p>
+                    <p>(999)-999-999</p>
+                    <p>(222)-222-222</p>
+                </article>
+                <h2 class="emailh2">Email:</h2>
+                <p>dryoar@example.com</p>
+            </section>
+            <section class="maps">
+                <h2>Google Maps:</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9968.081011981725!2d-111.78870031326782!3d43.810991977812094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03d        c48a5cf%3A0x1e5534d3c38ef412!2sBrigham%20Young%20University-Idaho!5e0!3m2!1sen!2sus!4v1734500737230!5m2!1sen!2sus" 
+                width="600" height="450" style="border:0;" allowfullscreen="" 
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </div>
+        <div class="employees">
+            <h1>Employees of the Week</h1>
+            <section class="blurps">
+                <img src="../images/profile-3.jpg" alt="Dave">
+                <p>Dave Smith</p>
+                <p>Maintenance Supervisor</p> 
+            </section>
+            <section class="blurps">
+                <img src="../images/profile-2.jpg" alt="Sally">
+                <p>Sally Gordon</p>
+                <p>Receptionist</p> 
+            </section>
+            <section class="blurps">
+                <img src="../images/profile-1.jpg" alt="Nyx">
+                <p>Nyx Nykreim</p>
+                <p>Cusotmer Service Rep</p> 
+            </section>
+        </div>
+        <div class="form">
+            <h1>Send us a message!</h1>
+            <div class="info">
+                <label class="name" for="fullname">Full Name:</label>
+                <input class="name2" type="text" id="fullname" name="user-contact">
+                <label class="email" or="email">Email:</label>
+                <input class="email2" type="text" id="email" name="user-contact">
+            </div>
+            <div class="message">
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Reservation Question">Reservation Question</option>
+                    <option value="Website Suggestion">Website Suggestion</option>
+                </select>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="10" placeholder="Type your message here..."></textarea>
+                <section>
+                    <label for="subscribe">I would like to subscribe to email updates!</label>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                </section>
+                
+            </div>
+            <button class="formbutton" type="submit">Send</button>
+            
+        </div>
+    </main>
+    <footer class="footer-container">
+        <p>&copy;2024 Dry Oar - Jenna Anderson</p>
+        <nav class="nav-container">
+            <a href="https://facebook.com">
+                <img src="images/facebook-icon.webp" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter-logo.webp" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-icon.webp" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
