@@ -292,3 +292,98 @@ section p {
 
 }
 
+.newsletter {
+    color: var(--text-color);
+    margin: 1rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.newsletter h1 {
+    text-align: center;
+    color:var(--text-color);
+    text-decoration: underline;
+}
+
+.letter {
+    display: grid;
+    grid-template:1fr/1fr 1fr;
+    grid-gap: 1rem;
+    margin: 1rem;
+    
+}
+
+.letterh1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+}
+
+.newsletterform {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 10% 10% 10% 10% 10% 10%;
+    margin: 1rem;
+    place-items: center;
+}
+
+.textinput {
+    max-width: 200px;
+    max-height: 1rem;
+}
+
+.newsletterform button {
+    max-height: 2rem;
+    max-width: 100px;
+}
+
+.tripplan {
+    border: solid var(--accent-color-1);
+    background-color: var(--secondary-color);
+    margin: 1rem;
+    color: var(--text-color);
+    text-align: center;
+    
+}
+
+.tripplan {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.planh1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.tripplan img {
+    height: 10rem;
+    width: 15rem;
+}
+
+.img1 {
+    grid-column: 1;
+    grid-row:2
+    
+}
+
+.tripplan p {
+    grid-column:2;
+}
+
+.img2 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.tripplan a {
+    grid-column: 2;
+}
+
+
+html {
+    background-color: var(--main-color);
+}
+
